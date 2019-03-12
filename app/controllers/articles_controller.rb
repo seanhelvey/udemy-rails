@@ -1,8 +1,8 @@
 class ArticlesController < ApplicationController
     def index
-        articles = Article.all
-        render json: articles
+        render json: ArticleSerializer.new(Article.all)
     end
     def show
+        render json: ArticleSerializer.new(Article.find(params[:id]))
     end
 end

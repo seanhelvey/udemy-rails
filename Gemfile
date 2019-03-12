@@ -13,7 +13,7 @@ gem 'sqlite3', '~> 1.3.6'
 gem 'puma', '~> 3.11'
 gem 'rspec-rails'
 gem 'factory_bot_rails'
-gem 'active_model_serializers'
+gem 'fast_jsonapi'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
