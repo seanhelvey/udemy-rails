@@ -13,6 +13,7 @@ gem 'rspec-rails'
 gem 'factory_bot_rails'
 gem 'fast_jsonapi'
 gem 'kaminari'
+gem 'irb', require: false
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
